@@ -4,7 +4,7 @@ def reverse_each_word(words)
   result = [];
   backwords = words.split(/ /)
   backwords.each do |x|
-    
+    result 
   result.join(" ")
 end
 
