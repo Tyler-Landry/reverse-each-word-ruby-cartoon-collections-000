@@ -5,7 +5,7 @@ result = [];
 backwords = words.split(/ /).collect do |x|
     
     end
-    result.join()
+    result.join("")
 end
 
   
