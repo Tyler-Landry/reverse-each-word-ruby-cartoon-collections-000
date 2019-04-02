@@ -5,6 +5,7 @@ def reverse_each_word(words)
   backwords = words.split(/ /)
   backwords.each do |x|
     result << x.reverse!
+  end
   result.join(" ")
 end
 
